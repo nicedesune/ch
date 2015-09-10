@@ -1,4 +1,4 @@
-var PORT = process.env.OPENSHIFT_INTERNAL_PORT || 8080;
+var PORT = process.env.OPENSHIFT_INTERNAL_PORT || 80;
 var IPADDRESS = process.env.OPENSHIFT_INTERNAL_IP || '127.0.0.1';
 
 var express = require('express');
